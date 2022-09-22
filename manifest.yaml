@@ -1,5 +1,7 @@
 ---
 version: '0.3'
+display_name: "Test test"
+biothings_type: "biothings_type_test"
 requires:
 - pandas
 - numpy
