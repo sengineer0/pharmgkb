@@ -1,7 +1,8 @@
 ---
 version: '0.3'
 display_name: "Test test"
-biothings_type: "biothings_type_test"
+biothings_type: "invalid field"
+biothing_type: "doc type"
 requires:
 - pandas
 - numpy
