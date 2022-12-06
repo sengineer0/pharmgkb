@@ -16,10 +16,10 @@ uploaders:
 - name: annotations
   parser: parser:load_annotations
   mapping: parser:custom_annotations_mapping
-  ignore_duplicates: false
+  on_duplicates: ignore
 - name: druglabels
   parser: parser:load_druglabels
-  ignore_duplicates: false
+  on_duplicates: ignore
 - name: occurrences
   parser: parser:load_occurrences
-  ignore_duplicates: false
+  on_duplicates: ignore
